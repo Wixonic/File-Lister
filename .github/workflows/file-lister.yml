@@ -14,4 +14,4 @@ jobs:
         uses: Wixonic/File-Lister@1.0
         with:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ignore: "node_modules/"
+          ignore: "node_modules"
