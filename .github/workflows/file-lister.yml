@@ -1,0 +1,17 @@
+name: File Lister
+
+on:
+  push:
+
+jobs:
+  file-lister:
+    name: File Lister
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: File Lister
+        uses: Wixonic/File-Lister@1.0
+        with:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ignore: "node_modules/"
