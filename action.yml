@@ -1,13 +1,18 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: "Assets Bot"
+description: "Display files in the README"
+author: "Wixonic"
+
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  TOKEN:
+    description: "GitHub Secret Token"
     required: true
-    default: 'World'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  ignore:
+    description: "Comma-separated list (without space) that contains all paths to ignore"
+
 runs:
-  using: 'node12'
-  main: 'index.js'
+  using: "node16"
+  main: "main.js"
+
+branding:
+  icon: "external-link"
+  color: "white"
