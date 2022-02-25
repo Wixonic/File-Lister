@@ -1,23 +1,39 @@
-# Hello world JavaScript action
+# File Lister
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log. To learn how this action was built, see "[Creating a JavaScript action](https://help.github.com/en/articles/creating-a-javascript-action)" in the GitHub Help documentation.
+This action list all repository's files in a part of the README.
 
 ## Inputs
 
-### `who-to-greet`
+### `TOKEN`
 
-**Required** The name of the person to greet. Default `"World"`.
+**Required** The GitHub Access Token.
 
-## Outputs
+### `ignore`
 
-### `time`
+A comma-separated (without space) list of paths that Will be ignored.
 
-The time we greeted you.
-
-## Example usage
+## Example Workflow
 
 ```yaml
-uses: actions/hello-world-javascript-action@main
-with:
-  who-to-greet: 'Mona the Octocat'
+- name: Checkout
+  uses: actions/checkout@v2
+- name: File Lister
+  uses: Wixonic/File-Lister@1.0
+    with:
+      TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ignore: ".github,.gitattribute"
 ```
+
+**Don't forget** to put this on the README.md:
+
+```html
+<!-- File Lister Display -->
+Will be updated...
+<!-- File Lister Display -->
+```
+
+## Example Result
+
+<!-- File Lister Display -->
+Will be updated...
+<!-- File Lister Display -->
