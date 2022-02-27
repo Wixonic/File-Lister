@@ -2,6 +2,8 @@
 
 This action list all repository's files in a part of the README.
 
+[![File Lister](https://github.com/Wixonic/File-Lister/actions/workflows/file-lister.yml/badge.svg)](https://github.com/Wixonic/File-Lister/actions/workflows/file-lister.yml)
+
 ## Inputs
 
 ### `TOKEN`
