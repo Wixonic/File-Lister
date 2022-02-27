@@ -33,14 +33,14 @@ A comma-separated (without space) list of paths that Will be ignored.
 ## Example Result
 
 <!-- File Lister Display -->
-> **Last Update**: 27/02/2022 08:42:10 UTC
+> **Last Update**: 27/02/2022 08:44:02 UTC
 
 ```
-─── (4.8 KB) 
+─── (5 KB) 
     └── .github (326 B) 
         └── workflows (326 B) 
             └── file-lister.yml (326 B)
-    └── README.md (933 B)
+    └── README.md (1.1 KB)
     └── action.yml (352 B)
     └── main.js (3.2 KB)
 ```
