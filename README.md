@@ -12,7 +12,7 @@ This action list all repository's files in a part of the README.
 
 ### `ignore`
 
-A comma-separated (without space) list of paths that Will be ignored.
+A comma-separated (without space) list of paths that will be ignored.
 
 ## Example Workflow
 
@@ -26,9 +26,11 @@ A comma-separated (without space) list of paths that Will be ignored.
       ignore: ".github,.gitattribute"
 ```
 
-**Don't forget** to put this on the README.md:
+**Don't forget** to put this on the `README.md`:
 
-<code>&lt;!-- File Lister Display -->&lt;!-- File Lister Display --></code>
+<code>&lt;!-- File Lister Display --></code>
+
+<code>&lt;!-- File Lister Display --></code>
 
 ## Example Result
 
