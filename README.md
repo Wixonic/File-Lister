@@ -20,7 +20,7 @@ A comma-separated (without space) list of paths that will be ignored.
 - name: Checkout
   uses: actions/checkout@v2
 - name: File Lister
-  uses: Wixonic/File-Lister@1.0
+  uses: Wixonic/File-Lister@1.0.1
     with:
       TOKEN: ${{ secrets.GITHUB_TOKEN }}
       ignore: ".github,.gitattribute"
