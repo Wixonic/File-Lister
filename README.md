@@ -35,7 +35,7 @@ A comma-separated (without space) list of paths that will be ignored.
 ## Example Result
 
 <!-- File Lister Display -->
-> **Last Update**: 20/04/2022 14:23:39 UTC
+> **Last Update**: 20/04/2022 14:24:35 UTC
 
 ```
 ─── (5 KB) 
